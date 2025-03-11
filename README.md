@@ -52,7 +52,7 @@ Sanity is used for managing content.
 
 ### 7. Install Sanity CLI
 ```sh
-npm install -g @sanity/cli
+npm install -g @sanity/cli '[For a more specific sanity project usage, use: npm create sanity@latest -- --project w2qkfye8 --dataset sofdev]'
 ```
 
 ### 8. Initialize Sanity Project
