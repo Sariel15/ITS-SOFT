@@ -51,8 +51,14 @@ npm install aos --save
 Sanity is used for managing content.
 
 ### 7. Install Sanity CLI
+Sanity CLI is required to manage and deploy content. Install it globally with:
 ```sh
-npm install -g @sanity/cli '[For a more specific sanity project usage, use: npm create sanity@latest -- --project w2qkfye8 --dataset sofdev]'
+npm install -g @sanity/cli
+```
+
+If you want to create a specific Sanity project, use:
+```sh
+npm create sanity@latest -- --project w2qkfye8 --dataset sofdev
 ```
 
 ### 8. Initialize Sanity Project
